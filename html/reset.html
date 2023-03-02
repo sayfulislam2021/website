@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgetting password</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            
+        }
+        .main{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 1000px;
+            position: relative;
+        }
+        .main .input{
+            width: 400px;
+            height: 400px;
+            background-color: rgba(6, 5, 12, 0.9);
+            border-radius: 10px;
+            position: absolute;
+            top: 50px;
+            left: 35%;
+            padding: 50px;
+        }
+
+        h1{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 55px;
+
+        }
+       
+        .us{
+            border: 1px solid #504e5c;
+            border-radius: 5px;
+            background-color: #37363e;
+            padding: 15px 5px;
+            font-size: 30px;
+            width: 100%;
+            margin: 10px 0;
+        }
+        .button{
+            background: linear-gradient(#ffffff, #e9e8e8);
+            width: 103%;
+            height: 50px;
+            margin: 20px 0;
+            border-radius: 5px;
+            color: black;
+            font-size: 30px;
+        }
+
+
+      .button:hover{
+          background: linear-gradient( #e9e8e8 ,#ffffff);
+      }
+        a:hover{
+            color: rgb(255, 0, 0);
+        }
+
+            a{
+                background-color: rgb(0, 195, 255);
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: black;
+                text-decoration: none;
+            }
+            .forget{
+               margin-left: 127px;
+            }
+ p{
+    line-height: 20px;
+ }
+
+
+
+
+    </style>
+</head>
+<body>
+  <div class="main">
+    <div class="input">
+
+        <h1>Forget password</h1>
+        <hr>
+        <strong>Find Your Account</strong>
+        <p>Please enter your email address or mobile number to search for your account.</p>
+        <form action="">
+            <input required class="us" type="text" name="user" required placeholder="Type Email or phone"> <br>
+     
+            <input class="button" type="submit" value="Reset your account">
+            <p>Remember your password please <a target="_blank" href="../index.html">login</a></p>
+          
+        </form>
+        
+        
+    </div>
+  </div>
+</body>
+</html>
